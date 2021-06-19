@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="New Module\newmodule.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +122,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="New Module\newmodule.aspx.designer.vb">
+      <DependentUpon>newmodule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New Module\newmodule.aspx.vb">
+      <DependentUpon>newmodule.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
